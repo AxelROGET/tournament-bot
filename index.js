@@ -7,7 +7,7 @@ let userId;
 
 let whitelist = [];
 
-client.login('Njk3ODM5MTMzOTg0NDI0MDQ3.Xprhdg.izNH1clDfq-YvblZmg4HuE5tkTg');
+client.login(process.env.TOKEN);
 
 client.on('ready',()=>{client.user.setActivity('Darwin Project', { type: 'PLAYING' })})
 
